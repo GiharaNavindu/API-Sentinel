@@ -6,6 +6,9 @@ module.exports = {
     filename: "popup.js",
     path: path.resolve(__dirname, "dist"),
   },
+  resolve: {
+    extensions: [".js", ".jsx"], // Add .jsx here
+  },
   module: {
     rules: [
       {
